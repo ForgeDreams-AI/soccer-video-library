@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>⚽ Soccer Video Library</title>
+<meta name="description" content="Anthony's soccer training video library — saved drills and coach pages, organized into 15 training categories.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <h1>⚽ Soccer Video Library</h1>
+    <p class="subtitle" id="subtitle">Loading…</p>
+    <nav class="header-nav">
+      <a href="#library">Videos</a>
+      <a href="#coaches">Coaches</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section id="library">
+    <div class="controls">
+      <div class="controls-row">
+        <input id="q" type="search" placeholder="Search titles or coaches…" autocomplete="off" aria-label="Search videos">
+        <select id="coachFilter" aria-label="Filter by coach">
+          <option value="all">All coaches</option>
+        </select>
+      </div>
+      <div class="source-toggle" role="group" aria-label="Filter by source">
+        <button data-source="all" class="active">All</button>
+        <button data-source="saved">★ My saves</button>
+        <button data-source="coach">Coach pages</button>
+      </div>
+      <div class="chips" id="chips"></div>
+    </div>
+
+    <p class="result-count" id="resultCount"></p>
+    <div class="grid" id="grid"></div>
+    <div class="more-wrap">
+      <button id="showMore" class="more-btn">Show more</button>
+    </div>
+    <p class="empty" id="emptyMsg" hidden>No videos match those filters.</p>
+  </section>
+
+  <section id="coaches">
+    <h2>Coaches</h2>
+    <p class="section-sub">The coach pages swept for this library — tap through to their Instagram.</p>
+    <div class="grid coaches-grid" id="coachGrid"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Every card links to the original Instagram post. ★ = from Anthony's saved collections.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
