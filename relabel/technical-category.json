@@ -1,0 +1,992 @@
+[
+ {
+  "id": "17976894563936254",
+  "source": "new-saves",
+  "coach": "grimaldiball_",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Centre-Back Drill: Header, Cover Ground, 1v1 Defending",
+  "name_status": "named",
+  "reason": "New save left Unsorted; the drill includes a 1v1 defending element (header, cover ground, 1v1)."
+ },
+ {
+  "id": "18056766371761246",
+  "source": "new-saves",
+  "coach": "grimaldiball_",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Calm in the Chaos: Keeping the Ball Under Pressure",
+  "name_status": "named",
+  "reason": "New save left Unsorted; keeping the ball under pressure in a 1v1 ('Calm in the Chaos')."
+ },
+ {
+  "id": "18108120488600158",
+  "source": "new-saves",
+  "coach": "grimaldiball_",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Receiving Levels: First Touch and Control",
+  "name_status": "named",
+  "reason": "New save left Unsorted; receiving levels \u2014 first touch and control work."
+ },
+ {
+  "id": "18109265800893090",
+  "source": "new-saves",
+  "coach": "grimaldiball_",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 Skill Move Demo",
+  "name_status": "named",
+  "reason": "New save left Unsorted; a 1v1 skill move demo."
+ },
+ {
+  "id": "18117003511985526",
+  "source": "new-saves",
+  "coach": "grimaldiball_",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Receiving at Pace: Wide Players and Fullbacks",
+  "name_status": "named",
+  "reason": "New save left Unsorted; receiving at pace for wide players \u2014 first-touch/receiving work."
+ },
+ {
+  "id": "18120789025917281",
+  "source": "new-saves",
+  "coach": "grimaldiball_",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "The Thiago Turn: Jink One Way, Turn the Other",
+  "name_status": "named",
+  "reason": "New save left Unsorted; the Thiago turn \u2014 a turn to shake off a defender."
+ },
+ {
+  "id": "18151488376516173",
+  "source": "new-saves",
+  "coach": "grimaldiball_",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v2 Underloads: Keeping the Ball Outnumbered",
+  "name_status": "named",
+  "reason": "New save left Unsorted; explicit 1v2 underloads \u2014 and Anthony's own call: this is the video he saved into both of his new 'Midfielder drills' collections, and he named 1v2 for Technical himself."
+ },
+ {
+  "id": "17970053739066935",
+  "source": "existing-unsorted",
+  "coach": "5amfootball",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "La Croqueta: The Feint That Beats Your Man",
+  "name_status": "named",
+  "reason": "Video breaks down La Croqueta, a feint to beat opponents \u2014 a skill-move tutorial."
+ },
+ {
+  "id": "17987362294496850",
+  "source": "existing-unsorted",
+  "coach": "_coachingsoccer_",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Pass, 1v1 and Sprint Drill",
+  "name_status": "named",
+  "reason": "Caption lists the drill sequence: pass, 1v1, sprint."
+ },
+ {
+  "id": "17862393033527284",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery Drill: One-Minute Rounds",
+  "name_status": "named",
+  "reason": "Title states a ball mastery drill \u2014 1 minute of work, 4-5 rounds."
+ },
+ {
+  "id": "17910994839299187",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery Variations: One Minute Each",
+  "name_status": "named",
+  "reason": "Title states ball mastery variations, 1 minute of work per variation."
+ },
+ {
+  "id": "17937708762211499",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Weave Dribbling Variations: One-Minute Rounds",
+  "name_status": "named",
+  "reason": "Title states weave dribbling variations."
+ },
+ {
+  "id": "17957103765026696",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Gate Zig-Zag Dribble for Close Control",
+  "name_status": "named",
+  "reason": "Title: gate zig-zag dribble to work on close control."
+ },
+ {
+  "id": "17960299749032032",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ronaldinho Dribbling Circuit for Close Control",
+  "name_status": "named",
+  "reason": "Caption: Ronaldinho dribbling circuit to improve close control and touches."
+ },
+ {
+  "id": "17962823190228360",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Dribbling and Close Control Drills: One-Minute Variations",
+  "name_status": "named",
+  "reason": "Caption: drills to improve dribbling, close control and confidence on the ball."
+ },
+ {
+  "id": "17996913983806763",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Solo Gate Zig-Zag Dribbling Drill",
+  "name_status": "named",
+  "reason": "Title states a solo gate zig-zag dribbling drill."
+ },
+ {
+  "id": "18020240600801180",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery Drill for Quick Feet and Close Control",
+  "name_status": "named",
+  "reason": "Caption: ball mastery drill targeting quick feet and close control."
+ },
+ {
+  "id": "18052063862470681",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Partner First Touch Drill: 10 Clean Reps Each Side",
+  "name_status": "named",
+  "reason": "Title states a partner first touch drill."
+ },
+ {
+  "id": "18066394478488422",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Aerial Control Drill: 10 Reps Each Side",
+  "name_status": "named",
+  "reason": "Title states an aerial control drill (first touch/control), 10 reps each side."
+ },
+ {
+  "id": "18071579531379954",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Dribbling Drill Variations: One Minute Each",
+  "name_status": "named",
+  "reason": "Duplicate post of the same dribbling-variations drill (identical title/caption)."
+ },
+ {
+  "id": "18088684049123589",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery Drill: Close Control and Dribbling",
+  "name_status": "named",
+  "reason": "Caption: ball mastery drill to improve close control and dribbling."
+ },
+ {
+  "id": "18090727742036461",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Dribbling Drill for Close Control",
+  "name_status": "named",
+  "reason": "Title: dribbling drill to work on close control."
+ },
+ {
+  "id": "18092627887982147",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery for Close Control and First Touch",
+  "name_status": "named",
+  "reason": "Caption: ball mastery drills for close control and first touch."
+ },
+ {
+  "id": "18093413870332457",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Skill Move Variations Off a Turn",
+  "name_status": "named",
+  "reason": "Title: skill move variations off a turn."
+ },
+ {
+  "id": "18104612068835942",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Volley Drill for First Touch",
+  "name_status": "named",
+  "reason": "Caption: drill is perfect for improving first touch with a partner."
+ },
+ {
+  "id": "18106685737686159",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery Drill for Close Dribbling and Touch",
+  "name_status": "named",
+  "reason": "Caption: ball mastery drill to improve close dribbling and touch."
+ },
+ {
+  "id": "18111452839708378",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Dribbling Drill Variations: One Minute Each",
+  "name_status": "named",
+  "reason": "Title states a dribbling drill, 1 minute per variation."
+ },
+ {
+  "id": "18129947692536891",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery Variations: One-Minute Rounds",
+  "name_status": "named",
+  "reason": "Title states ball mastery variations, 1 minute each."
+ },
+ {
+  "id": "18137801659518602",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Zig-Zag Gate Dribbling Drill",
+  "name_status": "named",
+  "reason": "Title states a zig-zag gate dribbling drill."
+ },
+ {
+  "id": "18140891437621758",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Weave Dribbling Variations: One-Minute Rounds",
+  "name_status": "named",
+  "reason": "Duplicate post of the same weave dribbling variations (identical title/caption)."
+ },
+ {
+  "id": "18178863265353823",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Solo Gate Zig-Zag Dribbling Drill",
+  "name_status": "named",
+  "reason": "Duplicate post of the same solo zig-zag dribbling drill (identical title/caption)."
+ },
+ {
+  "id": "18554788534012251",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery Drill for Close Dribbling and Touch",
+  "name_status": "named",
+  "reason": "Duplicate post of the same ball mastery drill (identical title/caption)."
+ },
+ {
+  "id": "18559210744028923",
+  "source": "existing-unsorted",
+  "coach": "extrawork.io",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Volley Drill for First Touch",
+  "name_status": "named",
+  "reason": "Duplicate post of the same first-touch volley drill (identical title/caption)."
+ },
+ {
+  "id": "17871228657610598",
+  "source": "existing-unsorted",
+  "coach": "ftfssoccer",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "4-Cone Ball Mastery Series: Drop Sets, Both Feet",
+  "name_status": "named",
+  "reason": "Caption: technical tutorial, 4-cone ball mastery series, drop sets, both feet."
+ },
+ {
+  "id": "17878855413520843",
+  "source": "existing-unsorted",
+  "coach": "ftfssoccer",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery Session",
+  "name_status": "named",
+  "reason": "Title/caption is 'BALL MASTERY', tagged technical training."
+ },
+ {
+  "id": "17956896841991747",
+  "source": "existing-unsorted",
+  "coach": "ftfssoccer",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery: Verbal Reaction Drill",
+  "name_status": "named",
+  "reason": "Caption describes a ball mastery verbal reaction drill, 3 sets of 30 seconds."
+ },
+ {
+  "id": "17999328389903993",
+  "source": "existing-unsorted",
+  "coach": "ftfssoccer",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery Drill: No Equipment Needed",
+  "name_status": "named",
+  "reason": "Title states a ball mastery drill."
+ },
+ {
+  "id": "18053511074782402",
+  "source": "existing-unsorted",
+  "coach": "ftfssoccer",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Limited-Pressure 1v1s: Timing Beats the Defender",
+  "name_status": "named",
+  "reason": "Caption: limited-pressure 1v1s \u2014 timing and distance beat the defender, skill move manipulates his feet."
+ },
+ {
+  "id": "18070712663471015",
+  "source": "existing-unsorted",
+  "coach": "ftfssoccer",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery: Learn, Speed, Eyes Up",
+  "name_status": "named",
+  "reason": "Title is a ball mastery session framework (learn, speed, eyes up)."
+ },
+ {
+  "id": "18084494501183464",
+  "source": "existing-unsorted",
+  "coach": "ftfssoccer",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery Pattern",
+  "name_status": "named",
+  "reason": "Title states a ball mastery pattern."
+ },
+ {
+  "id": "18101330420359908",
+  "source": "existing-unsorted",
+  "coach": "ftfssoccer",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery Session: Technical Training",
+  "name_status": "named",
+  "reason": "Title: 'Technical training - Ball Mastery session'."
+ },
+ {
+  "id": "18105400414961099",
+  "source": "existing-unsorted",
+  "coach": "ftfssoccer",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Change of Direction and Ball Mastery",
+  "name_status": "named",
+  "reason": "Caption: change of direction + ball mastery to improve ball control and footwork."
+ },
+ {
+  "id": "18137878213518224",
+  "source": "existing-unsorted",
+  "coach": "ftfssoccer",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Directional Touch: Verbal Cues and Field Awareness",
+  "name_status": "named",
+  "reason": "Title names directional touch (first-touch direction) as the training focus."
+ },
+ {
+  "id": "18317633998265498",
+  "source": "existing-unsorted",
+  "coach": "ftfssoccer",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Ball Mastery Pattern Session",
+  "name_status": "named",
+  "reason": "Caption identifies the session as a ball mastery pattern (post title was only 'Trust The Process')."
+ },
+ {
+  "id": "18370127533200738",
+  "source": "existing-unsorted",
+  "coach": "ftfssoccer",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Youth Technical Training: One-Touch Basics",
+  "name_status": "named",
+  "reason": "Title: technical training building the basics one touch at a time; tagged ball mastery."
+ },
+ {
+  "id": "17863289597699000",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Quick Touch to the Ground: Technique Under 1v1 Pressure",
+  "name_status": "named",
+  "reason": "Caption: technique for getting the ball back to the surface quickly, then adding 1v1 pressure."
+ },
+ {
+  "id": "17867670906673115",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 Defending in Wide Areas: Session Breakdown",
+  "name_status": "named",
+  "reason": "Title: coach breaking down his session \u2014 1v1 defending in wide areas."
+ },
+ {
+  "id": "17879891814620519",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Feints and Eyes: Decide Instead of Guessing",
+  "name_status": "named",
+  "reason": "Caption: using feints and eyes together improves decision making on skills/manipulation."
+ },
+ {
+  "id": "17884142052220300",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "First Touch Activity: A Clinic",
+  "name_status": "named",
+  "reason": "Caption: player putting on a clinic in a first touch activity (his save)."
+ },
+ {
+  "id": "17904351521490587",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 Fundamentals: Attacking and Defending",
+  "name_status": "named",
+  "reason": "Title: attacking and defending fundamentals in 1v1 situations."
+ },
+ {
+  "id": "17942133133906988",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Receiving Under Pressure From Recovering Defenders",
+  "name_status": "named",
+  "reason": "Title states receiving under pressure from recovering defenders."
+ },
+ {
+  "id": "17993039680451680",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Receiving Between Lines: Momentum and Technique",
+  "name_status": "named",
+  "reason": "Caption: detail on momentum when receiving between lines \u2014 technique plus decision."
+ },
+ {
+  "id": "18048983330780447",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1: Create Space to Shoot or Cross",
+  "name_status": "named",
+  "reason": "Title: '1v1 - situation topic - Create space to shoot/cross'."
+ },
+ {
+  "id": "18069486125325212",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 Out of the Air: Session Clips",
+  "name_status": "named",
+  "reason": "Caption: clips of 1v1 out of the air work."
+ },
+ {
+  "id": "18075526007651279",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Individual Battles on the Half-Turn",
+  "name_status": "named",
+  "reason": "Title: half-turn individual battles (1v1 duels)."
+ },
+ {
+  "id": "18101664622987410",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "First Touch: Eliminate or Manipulate",
+  "name_status": "named",
+  "reason": "Title states first touch coaching point (eliminate or manipulate)."
+ },
+ {
+  "id": "18103230179101349",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Shield the Ball, Then Beat the Defender With Quick Footwork",
+  "name_status": "named",
+  "reason": "Caption: protecting/shielding the ball to create separation, then quick footwork to beat the defender."
+ },
+ {
+  "id": "18104040338237467",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 Change of Speed: Alignment Work",
+  "name_status": "named",
+  "reason": "Caption confirms 1v1 change-of-speed alignment work."
+ },
+ {
+  "id": "18106909100311950",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Movement Feints Off the Ball: Rhythms and Step Patterns",
+  "name_status": "named",
+  "reason": "Caption: movement feints to create separation, working rhythms and step patterns."
+ },
+ {
+  "id": "18111260897503854",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 Defending in Tight Areas: Side-On and Patient",
+  "name_status": "named",
+  "reason": "Caption gives 1v1 defending technique points for a tight area (side-on, low, patient)."
+ },
+ {
+  "id": "18113178769969621",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "First Touch Alignment Work",
+  "name_status": "named",
+  "reason": "Title states first touch alignment work."
+ },
+ {
+  "id": "18115315177695798",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 Battles Out of the Air: Ground the Ball Under Pressure",
+  "name_status": "named",
+  "reason": "Caption: 1v1 battles out of the air, grounding the ball under pressure."
+ },
+ {
+  "id": "18121176970275458",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "First Touch: Receive Across the Body to Turn",
+  "name_status": "named",
+  "reason": "Caption: patience in the first touch when receiving across the body to turn."
+ },
+ {
+  "id": "18126848059637960",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v2: Turn and Attack Before the Recovering Defender Arrives",
+  "name_status": "named",
+  "reason": "Caption states a 1v2 \u2014 turn and attack with speed."
+ },
+ {
+  "id": "18209609167331874",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1: Pressure From Behind",
+  "name_status": "named",
+  "reason": "Title states a 1v1 with pressure from behind."
+ },
+ {
+  "id": "18300361324034176",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Protect and Hold Off: Shielding Technique, With and Without Pressure",
+  "name_status": "named",
+  "reason": "Caption: protect/hold off is a technique to master, without and with pressure."
+ },
+ {
+  "id": "18311343397261971",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 Pressure From Behind: Stay Positive and Play Forward",
+  "name_status": "named",
+  "reason": "Caption: pressure from behind is the hardest one-v-one situation; stay positive (his save)."
+ },
+ {
+  "id": "18589216417028250",
+  "source": "existing-unsorted",
+  "coach": "fundamentalfutbol",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "First Touch Under Pressure: Deception and Disguise",
+  "name_status": "named",
+  "reason": "Caption: deception and disguise are key to a first touch under pressure."
+ },
+ {
+  "id": "17869600992536653",
+  "source": "existing-unsorted",
+  "coach": "growthsoccertraining",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v2 Movements When Receiving the Ball",
+  "name_status": "named",
+  "reason": "Title states 1v2 movements upon receiving."
+ },
+ {
+  "id": "17998497371726482",
+  "source": "existing-unsorted",
+  "coach": "growthsoccertraining",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Scanning and Directional Turns Into Space",
+  "name_status": "named",
+  "reason": "Title states scanning and directional turns into space."
+ },
+ {
+  "id": "18057874391639881",
+  "source": "existing-unsorted",
+  "coach": "growthsoccertraining",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Fake Before Receiving: Composure in Tight Spaces",
+  "name_status": "named",
+  "reason": "Caption: awareness and composure to fake before receiving the ball, escaping small spaces."
+ },
+ {
+  "id": "18072346880047958",
+  "source": "existing-unsorted",
+  "coach": "growthsoccertraining",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Monday Night 1v1 Battles",
+  "name_status": "named",
+  "reason": "Title states Monday night 1v1 battles."
+ },
+ {
+  "id": "18078341501523406",
+  "source": "existing-unsorted",
+  "coach": "growthsoccertraining",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Awareness to Turn Into Space",
+  "name_status": "named",
+  "reason": "Title names turning into space as the training theme."
+ },
+ {
+  "id": "18098153366237229",
+  "source": "existing-unsorted",
+  "coach": "growthsoccertraining",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1: To a Different Level",
+  "name_status": "named",
+  "reason": "Title states 1v1 work, tagged #1v1."
+ },
+ {
+  "id": "18098530403207132",
+  "source": "existing-unsorted",
+  "coach": "growthsoccertraining",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Scan, Turn, Deliver",
+  "name_status": "named",
+  "reason": "Title names the scan-turn-deliver technical sequence."
+ },
+ {
+  "id": "18099467605640348",
+  "source": "existing-unsorted",
+  "coach": "growthsoccertraining",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 Upon Opening Up",
+  "name_status": "named",
+  "reason": "Title states a 1v1 upon opening up."
+ },
+ {
+  "id": "18138211492508114",
+  "source": "existing-unsorted",
+  "coach": "growthsoccertraining",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "High-Level Turns",
+  "name_status": "named",
+  "reason": "Title states high level turns training."
+ },
+ {
+  "id": "18437943085142161",
+  "source": "existing-unsorted",
+  "coach": "jona.tou",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Tennis-Ball Technical Drills: Sharpen Your Touch",
+  "name_status": "named",
+  "reason": "Title: technical drills with a tennis ball; caption ties it to better touch, tagged first touch (his save)."
+ },
+ {
+  "id": "17938767582376303",
+  "source": "existing-unsorted",
+  "coach": "jonerfootball",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Sharp Turns and Quick Decisions Under Pressure",
+  "name_status": "named",
+  "reason": "Title names sharp turns under pressure; tagged 1v1 football drills."
+ },
+ {
+  "id": "18005390801990940",
+  "source": "existing-unsorted",
+  "coach": "jonerfootball",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Beat the Defender: Touch, Change of Direction and Pass",
+  "name_status": "named",
+  "reason": "Caption: beat the defender \u2014 watch the touch, change of direction and pass."
+ },
+ {
+  "id": "18105764126285776",
+  "source": "existing-unsorted",
+  "coach": "jonerfootball",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 Turn: Signature Move",
+  "name_status": "named",
+  "reason": "Caption: a 1v1 built around a turn (signature move)."
+ },
+ {
+  "id": "18178555156442540",
+  "source": "existing-unsorted",
+  "coach": "jonerfootball",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "The Flip-Flop: 1v1 Skill Move",
+  "name_status": "named",
+  "reason": "Caption: a flip-flop skill move in a 1v1, tagged #1v1 #FootballSkills."
+ },
+ {
+  "id": "17911843125544271",
+  "source": "existing-unsorted",
+  "coach": "keepitonthedeck",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Zenit Two-Phase 1v1 Duel Setup",
+  "name_status": "named",
+  "reason": "Title states a two-phase 1v1 duel setup."
+ },
+ {
+  "id": "18116019754957733",
+  "source": "existing-unsorted",
+  "coach": "keepitonthedeck",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "VfL Bochum Duel Setup",
+  "name_status": "named",
+  "reason": "Title states a VfL Bochum duel (1v1) setup."
+ },
+ {
+  "id": "18116598763945757",
+  "source": "existing-unsorted",
+  "coach": "keepitonthedeck",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Continuous 1v1: Movement to Receive With Back to Goal",
+  "name_status": "named",
+  "reason": "Caption: continuous 1v1 movement-to-receive practice, back to goal under pressure."
+ },
+ {
+  "id": "18150002341555046",
+  "source": "existing-unsorted",
+  "coach": "keepitonthedeck",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Arsenal Duel Setup",
+  "name_status": "named",
+  "reason": "Title states an Arsenal duel (1v1) setup."
+ },
+ {
+  "id": "18373370821213889",
+  "source": "existing-unsorted",
+  "coach": "keepitonthedeck",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 Drill: Pressure From Behind",
+  "name_status": "named",
+  "reason": "Title states a 1v1 drill with pressure from behind (his save)."
+ },
+ {
+  "id": "17903097930066642",
+  "source": "existing-unsorted",
+  "coach": "prof.emerson_regert",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Receiving a Pass Away From Your Marker",
+  "name_status": "named",
+  "reason": "Title (Portuguese/English): receiving a pass away from his marker (his save)."
+ },
+ {
+  "id": "18050132146876466",
+  "source": "existing-unsorted",
+  "coach": "rcperformancetraining",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Confidence Circuit: Control, First Touch and Cross-Step Zig-Zag",
+  "name_status": "named",
+  "reason": "Caption lists a 4-part circuit including control/combine and a first touch station (his save)."
+ },
+ {
+  "id": "18137927488550379",
+  "source": "existing-unsorted",
+  "coach": "rousefootball",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "6 Ways to Escape Pressure",
+  "name_status": "named",
+  "reason": "Title states 6 ways to escape pressure \u2014 turns/feints skill content, tagged skills (his save)."
+ },
+ {
+  "id": "17930125991656799",
+  "source": "existing-unsorted",
+  "coach": "tacticalsession",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "AFC Bournemouth 1v1 Drill",
+  "name_status": "named",
+  "reason": "Title states an AFC Bournemouth 1v1 drill (his save)."
+ },
+ {
+  "id": "17943695837117084",
+  "source": "existing-unsorted",
+  "coach": "tacticalsession",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Brentford FC 1v1 Drill: The Nutmeg",
+  "name_status": "named",
+  "reason": "Title states a Brentford 1v1 drill; caption tags the nutmeg/panna."
+ },
+ {
+  "id": "18019753504422506",
+  "source": "existing-unsorted",
+  "coach": "tacticalsession",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "FC Barcelona 1v1 Drill",
+  "name_status": "named",
+  "reason": "Title states an FC Barcelona 1v1 drill."
+ },
+ {
+  "id": "18261749209065568",
+  "source": "existing-unsorted",
+  "coach": "tacticalsession",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "FK Zenit St. Petersburg 1v1 Drill",
+  "name_status": "named",
+  "reason": "Title states an FK Zenit 1v1 drill (his save)."
+ },
+ {
+  "id": "17891957502681208",
+  "source": "existing-unsorted",
+  "coach": "thecoacheszone",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 With Recovery: Beat the Defender and Finish",
+  "name_status": "named",
+  "reason": "Caption describes the drill-library practice: 1v1 with recovery, beat the defender and finish."
+ },
+ {
+  "id": "17903971293558540",
+  "source": "existing-unsorted",
+  "coach": "thecoacheszone",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "1v1 With and Without the Ball: Through the Gates",
+  "name_status": "named",
+  "reason": "Caption describes the drill-library practice: 1v1 in a square grid, beat your opponent through one of two gates."
+ },
+ {
+  "id": "18105134099622828",
+  "source": "existing-unsorted",
+  "coach": "thecoacheszone",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Number 6 Technical Practice: Receive and Link Play",
+  "name_status": "named",
+  "reason": "Caption calls it a '#6 Technical Practice' \u2014 receiving under control and linking play."
+ },
+ {
+  "id": "18098089246966259",
+  "source": "existing-unsorted",
+  "coach": "valenciasocceracademy",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Non-Contact Duels: 1v2 Under Pressure",
+  "name_status": "named",
+  "reason": "Caption states 1 vs 2 non-contact duels in reduced spaces (his save)."
+ },
+ {
+  "id": "17999729213463104",
+  "source": "existing-unsorted",
+  "coach": "zmeu.denis",
+  "from_category": "Unsorted",
+  "to_category": "Technical",
+  "new_name": "Change of Direction With the Ball: Accelerate and Turn",
+  "name_status": "named",
+  "reason": "Caption explains change of direction with the ball at your feet to dribble opponents (his save)."
+ }
+]

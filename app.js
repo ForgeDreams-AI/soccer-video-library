@@ -9,7 +9,7 @@
     "Pressing when losing the ball", "Line of confrontation",
     "Transitions to the middle third", "Transitions to the final third",
     "Switching the point of attack", "Crossing", "Finishing",
-    "Getting into shapes", "Warm up games", "Set pieces", "Unsorted",
+    "Getting into shapes", "Warm up games", "Set pieces", "Technical", "Unsorted",
   ];
   const CAT_RANK = {};
   CAT_ORDER.forEach((c, i) => { CAT_RANK[c] = i; });
@@ -34,7 +34,7 @@
     if (a.source !== b.source) return a.source === "saved" ? -1 : 1;
     return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
   };
-  CAT_ORDER.slice(0, 15).forEach((cat) => {
+  CAT_ORDER.slice(0, -1).forEach((cat) => {
     VIDEOS.filter((v) => v.category === cat).sort(byLikes)
       .forEach((v, i) => { v._rank = i + 1; v._top = i < 25; });
   });
@@ -125,7 +125,7 @@
       if (state.source !== "all" && v.source !== state.source) return false;
       if (state.coach !== "all" && v.coach !== state.coach) return false;
       if (state.q) {
-        const hay = (v.title + " @" + v.coach).toLowerCase();
+        const hay = (v.title + " " + (v.name || "") + " @" + v.coach).toLowerCase();
         if (!hay.includes(state.q)) return false;
       }
       return true;
@@ -160,10 +160,17 @@
     const hero = heroSrc
       ? `<div class="hero">${rank}<img src="${esc(heroSrc)}" alt="" loading="lazy" onerror="this.remove()"></div>`
       : `<div class="hero">${rank}</div>`;
+    const displayName = v.name || v.title;
+    const orig = v.name && v.name !== v.title
+      ? `<p class="card-orig">${esc(v.title)}</p>` : "";
+    const chips = v.chips && v.chips.length
+      ? `<div class="card-chips">${v.chips.map((c) => `<span class="mini-chip">${esc(c)}</span>`).join("")}</div>` : "";
     return `<article class="card">
       ${hero}
       <div class="card-top"><span class="pill">${esc(v.category)}</span>${badge}</div>
-      <h3 class="card-title">${esc(v.title)}</h3>
+      <h3 class="card-title">${esc(displayName)}</h3>
+      ${orig}
+      ${chips}
       <p class="card-coach"><a href="https://www.instagram.com/${esc(v.coach)}/" target="_blank" rel="noopener">@${esc(v.coach)}</a>${likes}</p>
       <a class="watch" href="${esc(v.url)}" target="_blank" rel="noopener">▶ Watch on Instagram</a>
     </article>`;
