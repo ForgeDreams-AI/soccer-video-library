@@ -150,15 +150,22 @@
       : '<span class="badge badge-coach">Coach page</span>';
     const rank = v._top ? `<span class="rank-badge">#${v._rank}</span>` : "";
     const likes = v.likes != null ? `<span class="likes">♥ ${fmtLikes(v.likes)}</span>` : "";
-    let heroSrc;
+    let heroSrc, heroOnErr;
     if (v._top) {
       heroSrc = `thumbs/${esc(v.id)}.jpg`;
+      heroOnErr = `this.remove()`;
     } else {
+      // All view: try the local thumb first (covers Technical + any other
+      // pulled stills), fall back once to Instagram's media endpoint.
       const sc = shortcode(v.url);
-      heroSrc = sc ? `https://www.instagram.com/p/${sc}/media/?size=l` : "";
+      heroSrc = `thumbs/${esc(v.id)}.jpg`;
+      const remote = sc ? `https://www.instagram.com/p/${sc}/media/?size=l` : "";
+      heroOnErr = remote
+        ? `if(this.dataset.fb){this.remove()}else{this.dataset.fb='1';this.src='${remote}'}`
+        : `this.remove()`;
     }
     const hero = heroSrc
-      ? `<div class="hero">${rank}<img src="${esc(heroSrc)}" alt="" loading="lazy" onerror="this.remove()"></div>`
+      ? `<div class="hero">${rank}<img src="${esc(heroSrc)}" alt="" loading="lazy" onerror="${heroOnErr}"></div>`
       : `<div class="hero">${rank}</div>`;
     const displayName = v.name || v.title;
     const orig = v.name && v.name !== v.title
