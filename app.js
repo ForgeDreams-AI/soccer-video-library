@@ -21,6 +21,7 @@
   // category, Instagram link, source coach). The drill library is the
   // Brophy Firebase project; coaches sign in there to finish + save.
   const DRILL_LIBRARY_URL = "https://brophy-drill-library.web.app";
+  const THUMB_BASE = "https://forgedreams-ai.github.io/soccer-video-library/thumbs";
   const DRILL_CATS = [
     "Playing from back", "Transitions to the middle third",
     "Possession in the middle third", "Transitions to the final third",
@@ -40,6 +41,9 @@
     // Only the 15 drill categories map over; "Technical" / "Unsorted"
     // are left out so the coach picks the category in the form.
     if (DRILL_CATS.includes(v.category)) q.set("cat", v.category);
+    // The setup still doubles as the drill's diagram photo in the drill
+    // library, so coaches don't have to hand-draw the diagram.
+    q.set("diagram", `${THUMB_BASE}/${v.id}.jpg`);
     return `${DRILL_LIBRARY_URL}/?${q.toString()}`;
   }
 
