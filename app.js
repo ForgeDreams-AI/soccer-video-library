@@ -42,11 +42,44 @@
   const topCounts = {};
   topVideos.forEach((v) => { topCounts[v.category] = (topCounts[v.category] || 0) + 1; });
 
+  // ---- series clusters: parts of one series stay together wherever they show ----
+  const seriesKey = (v) => (v.series ? `${v.coach}||${v.series}` : null);
+  const seriesOf = {};
+  VIDEOS.forEach((v) => {
+    const k = seriesKey(v);
+    if (k) (seriesOf[k] = seriesOf[k] || []).push(v);
+  });
+  const seriesBestLikes = (v) => {
+    const k = seriesKey(v);
+    if (!k) return v.likes == null ? -1 : v.likes;
+    return Math.max(...seriesOf[k].map((s) => (s.likes == null ? -1 : s.likes)));
+  };
+  const seriesBestRank = (v) => {
+    const k = seriesKey(v);
+    if (!k) return v._rank == null ? 1e9 : v._rank;
+    return Math.min(...seriesOf[k].map((s) => (s._rank == null ? 1e9 : s._rank)));
+  };
+  // Within a category: clusters sort by their best member, parts in order.
+  const byClusterLikes = (a, b) => {
+    const la = seriesBestLikes(a), lb = seriesBestLikes(b);
+    if (lb !== la) return lb - la;
+    if ((a.series || "") !== (b.series || "")) return String(a.series || "").localeCompare(String(b.series || ""));
+    if (a.part != null && b.part != null) return a.part - b.part;
+    return a.title.toLowerCase().localeCompare(b.title.toLowerCase());
+  };
+  const byClusterRank = (a, b) => {
+    const ra = seriesBestRank(a), rb = seriesBestRank(b);
+    if (ra !== rb) return ra - rb;
+    if ((a.series || "") !== (b.series || "")) return String(a.series || "").localeCompare(String(b.series || ""));
+    if (a.part != null && b.part != null) return a.part - b.part;
+    return (a._rank || 1e9) - (b._rank || 1e9);
+  };
+
   // ---- header totals (reflect the current mode) ----
   const categorized = VIDEOS.filter((v) => v.category !== "Unsorted").length;
   function updateSubtitle() {
     $("#subtitle").textContent = state.mode === "top"
-      ? `${topVideos.length} top videos · Top 25 per category, ranked by likes · ${COACHES.length} coaches`
+      ? `${topVideos.length} top videos · Top 25 per category, series kept together · ${COACHES.length} coaches`
       : `${VIDEOS.length.toLocaleString()} videos · ${categorized.toLocaleString()} in categories · ${COACHES.length} coaches`;
   }
 
@@ -120,7 +153,13 @@
   // ---- filtering + sorting ----
   function filtered() {
     const list = VIDEOS.filter((v) => {
-      if (state.mode === "top" && !v._top) return false;
+      // Top mode: a series rides along with its top-ranked part, so all parts show together.
+      if (state.mode === "top") {
+        if (!v._top) {
+          const k = seriesKey(v);
+          if (!k || !seriesOf[k].some((s) => s._top)) return false;
+        }
+      }
       if (state.cat !== "All" && v.category !== state.cat) return false;
       if (state.source !== "all" && v.source !== state.source) return false;
       if (state.coach !== "all" && v.coach !== state.coach) return false;
@@ -131,9 +170,9 @@
       return true;
     });
     if (state.mode === "top") {
-      list.sort((a, b) => (CAT_RANK[a.category] - CAT_RANK[b.category]) || (a._rank - b._rank));
+      list.sort((a, b) => (CAT_RANK[a.category] - CAT_RANK[b.category]) || byClusterRank(a, b));
     } else if (state.cat !== "All" && state.cat !== "Unsorted") {
-      list.sort(byLikes);
+      list.sort(byClusterLikes);
     }
     return list;
   }
@@ -170,11 +209,13 @@
     const displayName = v.name || v.title;
     const orig = v.name && v.name !== v.title
       ? `<p class="card-orig">${esc(v.title)}</p>` : "";
+    const partBadge = v.part != null
+      ? `<span class="part-badge">Part ${v.part} of ${v.parts || "?"}</span>` : "";
     const chips = v.chips && v.chips.length
       ? `<div class="card-chips">${v.chips.map((c) => `<span class="mini-chip">${esc(c)}</span>`).join("")}</div>` : "";
     return `<article class="card">
       ${hero}
-      <div class="card-top"><span class="pill">${esc(v.category)}</span>${badge}</div>
+      <div class="card-top"><span class="pill">${esc(v.category)}</span>${partBadge}${badge}</div>
       <h3 class="card-title">${esc(displayName)}</h3>
       ${orig}
       ${chips}

@@ -882,7 +882,10 @@ const VIDEOS = [
   "chips": [
    "pole/mannequin",
    "max 2 touches"
-  ]
+  ],
+  "series": "Passing Pattern",
+  "part": 1,
+  "parts": 3
  },
  {
   "id": "18081562130393596",
@@ -896,7 +899,10 @@ const VIDEOS = [
   "name": "Passing Pattern 2 of 3: Front-Foot Passing and Lay-Offs",
   "chips": [
    "mannequins"
-  ]
+  ],
+  "series": "Passing Pattern",
+  "part": 2,
+  "parts": 3
  },
  {
   "id": "18053093036579217",
@@ -907,7 +913,10 @@ const VIDEOS = [
   "source": "saved",
   "type": "REEL",
   "likes": 2972,
-  "name": "Passing Pattern 3 of 3: Pass-and-Go and Third-Man Runs"
+  "name": "Passing Pattern 3 of 3: Pass-and-Go and Third-Man Runs",
+  "series": "Passing Pattern",
+  "part": 3,
+  "parts": 3
  },
  {
   "id": "17912780331519318",
@@ -1275,7 +1284,10 @@ const VIDEOS = [
   "name": "Lay-Offs to Finish (Drill 1 of 2)",
   "chips": [
    "mini goal"
-  ]
+  ],
+  "series": "Lay-Offs to Finish",
+  "part": 1,
+  "parts": 2
  },
  {
   "id": "18022701686033335",
@@ -3498,7 +3510,10 @@ const VIDEOS = [
   "source": "saved",
   "type": "REEL",
   "likes": 131621,
-  "name": "Shooting Drill 1/2: Third-Man Run to Finish on the Move"
+  "name": "Shooting Drill 1/2: Third-Man Run to Finish on the Move",
+  "series": "Shooting Drill",
+  "part": 1,
+  "parts": 2
  },
  {
   "id": "18091571099173114",
@@ -13936,7 +13951,10 @@ const VIDEOS = [
   "category": "Unsorted",
   "source": "coach",
   "type": "REEL",
-  "likes": 5374
+  "likes": 5374,
+  "series": "Who is the most expensive player at each age in football history",
+  "part": 1,
+  "parts": 2
  },
  {
   "id": "18635042242035624",
@@ -13946,7 +13964,10 @@ const VIDEOS = [
   "category": "Unsorted",
   "source": "coach",
   "type": "REEL",
-  "likes": 1949
+  "likes": 1949,
+  "series": "Who is the most expensive player at each age in football history",
+  "part": 2,
+  "parts": 2
  },
  {
   "id": "18112987882990108",
