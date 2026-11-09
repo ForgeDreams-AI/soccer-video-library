@@ -144,6 +144,12 @@ main { max-width: 1100px; margin: 0 auto; padding: 0 14px 40px; }
   padding: 11px 10px; border-radius: 10px;
 }
 .watch:hover { background: var(--navy-dark); }
+.add-drill {
+  display: block; text-align: center; margin-top: 8px;
+  background: #fff; color: var(--navy); text-decoration: none; font-weight: 700; font-size: 14px;
+  padding: 10px; border-radius: 10px; border: 2px solid var(--navy);
+}
+.add-drill:hover { background: var(--gold); border-color: var(--gold); color: var(--navy-dark); }
 
 .more-wrap { text-align: center; margin: 22px 0 6px; }
 .more-btn {

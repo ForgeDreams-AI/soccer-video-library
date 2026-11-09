@@ -16,6 +16,33 @@
   const PAGE = 60;
   const state = { q: "", cat: "All", source: "all", coach: "all", shown: PAGE, mode: "top" };
 
+  // ---- Brophy Drill Library: "Add to Drill Library" deep link ----
+  // Opens the drill library's Add form with this video prefilled (name,
+  // category, Instagram link, source coach). The drill library is the
+  // Brophy Firebase project; coaches sign in there to finish + save.
+  const DRILL_LIBRARY_URL = "https://brophy-drill-library.web.app";
+  const DRILL_CATS = [
+    "Playing from back", "Transitions to the middle third",
+    "Possession in the middle third", "Transitions to the final third",
+    "Possession in the final third", "Switching the point of attack",
+    "Crossing", "Finishing", "Passing patterns",
+    "Passing patterns to finish", "Warm up games",
+    "Pressing when losing the ball", "Getting into shapes",
+    "Line of confrontation", "Set pieces",
+  ];
+  function drillLibraryLink(v) {
+    const q = new URLSearchParams({
+      add: "1",
+      name: v.name || v.title,
+      videoUrl: v.url,
+      coach: v.coach,
+    });
+    // Only the 15 drill categories map over; "Technical" / "Unsorted"
+    // are left out so the coach picks the category in the form.
+    if (DRILL_CATS.includes(v.category)) q.set("cat", v.category);
+    return `${DRILL_LIBRARY_URL}/?${q.toString()}`;
+  }
+
   const esc = (s) =>
     String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
@@ -221,6 +248,7 @@
       ${chips}
       <p class="card-coach"><a href="https://www.instagram.com/${esc(v.coach)}/" target="_blank" rel="noopener">@${esc(v.coach)}</a>${likes}</p>
       <a class="watch" href="${esc(v.url)}" target="_blank" rel="noopener">▶ Watch on Instagram</a>
+      <a class="add-drill" href="${esc(drillLibraryLink(v))}" target="_blank" rel="noopener">＋ Add to Brophy Library</a>
     </article>`;
   }
 
