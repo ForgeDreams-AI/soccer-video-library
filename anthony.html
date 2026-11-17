@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>⚽ How Anthony Has It — Soccer Video Library</title>
+<meta name="description" content="Anthony's soccer training videos organized exactly how he has them saved on Instagram — his own collections, same names, same order.">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .collection { margin-top: 34px; }
+  .collection h2 { margin: 0 0 4px; font-size: clamp(20px, 4vw, 26px); }
+  .collection-count { color: var(--muted); font-size: 15px; font-weight: 600; }
+  .collection .grid { margin-top: 12px; }
+  .collection .empty { color: var(--muted); }
+  .intro { color: var(--muted); font-size: 15px; line-height: 1.5; margin: 18px 2px 4px; max-width: 720px; }
+  .intro a { color: var(--navy); font-weight: 600; }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <h1>⚽ How Anthony Has It</h1>
+    <p class="subtitle" id="subtitle">Loading…</p>
+    <nav class="header-nav">
+      <a href="index.html">← Library</a>
+      <a href="#collections">Collections</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <p class="intro">The library's videos, organized the way Anthony has them saved on
+  Instagram — same collections, same names, same order. A video shows under
+  every collection it sits in. Only videos that are also in the library show
+  here; a few of his saves aren't in the library yet. The full library with
+  all 16 training categories is on the <a href="index.html">main page</a>.</p>
+  <div class="chips" id="chips"></div>
+  <div id="collections"></div>
+</main>
+
+<footer class="site-footer">
+  <p>Every card links to the original Instagram post. ★ = from Anthony's saved collections.</p>
+</footer>
+
+<script src="data.js"></script>
+<script src="anthony-data.js"></script>
+<script src="anthony.js"></script>
+</body>
+</html>
